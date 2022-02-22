@@ -1,0 +1,40 @@
+﻿<Window x:Class="FirstWPFApp.tictactoeWind"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:FirstWPFApp"
+        mc:Ignorable="d"
+        Title="tictactoeWind" Height="394" Width="303" Background="#FFE1DBF5">
+    <Grid x:Name="MyGrid" Margin="0,0,0,-6" HorizontalAlignment="Center" Width="283">
+        <Label x:Name="tXWin" Content="X win" HorizontalAlignment="Left" Height="37" VerticalAlignment="Top" Width="65" Margin="142,13,0,0" FontFamily="Candara" FontSize="18" Visibility="Hidden"/>
+        <Label x:Name="tYWin" Content="Y win" HorizontalAlignment="Left" Height="37" VerticalAlignment="Top" Width="65" Margin="142,13,0,0" FontFamily="Candara" FontSize="18" Visibility="Hidden"/>
+        <Button Content="Main" HorizontalAlignment="Left" Height="37" Margin="7,13,0,0" VerticalAlignment="Top" Width="61" Click="tictactoeMain" Background="#FFFDCDF2"/>
+        <Button x:Name="t1" Content="" HorizontalAlignment="Left" Height="50" Margin="7,68,0,0" VerticalAlignment="Top" Width="50" Background="#FFC3AEDA" Click="tictactoeClick"/>
+        <Button x:Name="t6" Content="" HorizontalAlignment="Left" Height="50" Margin="7,123,0,0" VerticalAlignment="Top" Width="50" Background="#FFC3AEDA" Click="tictactoeClick"/>
+        <Button x:Name="t11" Content="" HorizontalAlignment="Left" Height="50" Margin="7,178,0,0" VerticalAlignment="Top" Width="50" Background="#FFC3AEDA" Click="tictactoeClick"/>
+        <Button x:Name="t16" Content="" HorizontalAlignment="Left" Height="50" Margin="7,233,0,0" VerticalAlignment="Top" Width="50" Background="#FFC3AEDA" Click="tictactoeClick"/>
+        <Button x:Name="t21" Content="" HorizontalAlignment="Left" Height="50" Margin="7,288,0,0" VerticalAlignment="Top" Width="50" Background="#FFC3AEDA" Click="tictactoeClick"/>
+        <Button x:Name="t2" Content="" HorizontalAlignment="Left" Height="50" Margin="62,68,0,0" VerticalAlignment="Top" Width="50" Background="#FFC3AEDA" Click="tictactoeClick"/>
+        <Button x:Name="t7" Content="" HorizontalAlignment="Left" Height="50" Margin="62,123,0,0" VerticalAlignment="Top" Width="50" Background="#FFC3AEDA" Click="tictactoeClick"/>
+        <Button x:Name="t12" Content="" HorizontalAlignment="Left" Height="50" Margin="62,178,0,0" VerticalAlignment="Top" Width="50" Background="#FFC3AEDA" Click="tictactoeClick"/>
+        <Button x:Name="t17" Content="" HorizontalAlignment="Left" Height="50" Margin="62,233,0,0" VerticalAlignment="Top" Width="50" Background="#FFC3AEDA" Click="tictactoeClick"/>
+        <Button x:Name="t22" Content="" HorizontalAlignment="Left" Height="50" Margin="62,288,0,0" VerticalAlignment="Top" Width="50" Background="#FFC3AEDA" Click="tictactoeClick"/>
+        <Button x:Name="t3" Content="" HorizontalAlignment="Left" Height="50" Margin="117,68,0,0" VerticalAlignment="Top" Width="50" Background="#FFC3AEDA" Click="tictactoeClick"/>
+        <Button x:Name="t8" Content="" HorizontalAlignment="Left" Height="50" Margin="117,123,0,0" VerticalAlignment="Top" Width="50" Background="#FFC3AEDA" Click="tictactoeClick"/>
+        <Button x:Name="t13" Content="" HorizontalAlignment="Left" Height="50" Margin="117,178,0,0" VerticalAlignment="Top" Width="50" Background="#FFC3AEDA" Click="tictactoeClick"/>
+        <Button x:Name="t18" Content="" HorizontalAlignment="Left" Height="50" Margin="117,233,0,0" VerticalAlignment="Top" Width="50" Background="#FFC3AEDA" Click="tictactoeClick"/>
+        <Button x:Name="t23" Content="" HorizontalAlignment="Left" Height="50" Margin="117,288,0,0" VerticalAlignment="Top" Width="50" Background="#FFC3AEDA" Click="tictactoeClick"/>
+        <Button x:Name="t4" Content="" HorizontalAlignment="Left" Height="50" Margin="172,68,0,0" VerticalAlignment="Top" Width="50" Background="#FFC3AEDA" Click="tictactoeClick"/>
+        <Button x:Name="t9" Content="" HorizontalAlignment="Left" Height="50" Margin="172,123,0,0" VerticalAlignment="Top" Width="50" Background="#FFC3AEDA" Click="tictactoeClick"/>
+        <Button x:Name="t14" Content="" HorizontalAlignment="Left" Height="50" Margin="172,178,0,0" VerticalAlignment="Top" Width="50" Background="#FFC3AEDA" Click="tictactoeClick"/>
+        <Button x:Name="t19" Content="" HorizontalAlignment="Left" Height="50" Margin="172,233,0,0" VerticalAlignment="Top" Width="50" Background="#FFC3AEDA" Click="tictactoeClick"/>
+        <Button x:Name="t24" Content="" HorizontalAlignment="Left" Height="50" Margin="172,288,0,0" VerticalAlignment="Top" Width="50" Background="#FFC3AEDA" Click="tictactoeClick"/>
+        <Button x:Name="t5" Content="" HorizontalAlignment="Left" Height="50" Margin="227,68,0,0" VerticalAlignment="Top" Width="50" Background="#FFC3AEDA" Click="tictactoeClick"/>
+        <Button x:Name="t10" Content="" HorizontalAlignment="Left" Height="50" Margin="227,123,0,0" VerticalAlignment="Top" Width="50" Background="#FFC3AEDA" Click="tictactoeClick"/>
+        <Button x:Name="t15" Content="" HorizontalAlignment="Left" Height="50" Margin="227,178,0,0" VerticalAlignment="Top" Width="50" Background="#FFC3AEDA" Click="tictactoeClick"/>
+        <Button x:Name="t20" Content="" HorizontalAlignment="Left" Height="50" Margin="227,233,0,0" VerticalAlignment="Top" Width="50" Background="#FFC3AEDA" Click="tictactoeClick"/>
+        <Button x:Name="t25" Content="" HorizontalAlignment="Left" Height="50" Margin="227,288,0,0" VerticalAlignment="Top" Width="50" Background="#FFC3AEDA" Click="tictactoeClick"/>
+
+    </Grid>
+</Window>
